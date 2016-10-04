@@ -1,0 +1,26 @@
+@import 'https://fonts.googleapis.com/css?family=Abel';
+
+
+
+* {
+    font-family: 'Abel', sans-serif;
+    color: #5A1767;
+    text-align: center;
+}
+@import 'https://fonts.googleapis.com/css?family=Rubik';
+
+* {
+  background-color:#000000;
+}
+
+/*
+    bb8body: #1d0d8d
+    bb8bodyshadow: #0e0756
+    bb8circles: #21051f
+    FG: #4d1286
+    deepenedFG: #421072
+*/
+
+.bb8body {
+  mix-blend-mode: multiply;
+}
