@@ -21,6 +21,42 @@
     deepenedFG: #421072
 */
 
-.bb8body {
+.bb8BodyFX {
   mix-blend-mode: multiply;
 }
+
+
+.button {
+  position: relative;
+}
+#startBtn {
+  font-family: 'Abel', sans-serif;
+  color: #FFFFFF;
+  background-color: #5A1767;
+  border: 1px solid #5A1767;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px #3C0F44;
+  position: relative;
+  top: 0px;
+  transition: all ease 0.01s;
+}
+#startBtn:active {
+  box-shadow: 0 3px 0 #3C0F44;
+  top: 3px;
+}
+
+body {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #42a7b5;
+}
+
+/*
+
+button from stackoverflow:
+http://stackoverflow.com/questions/32459859/css-button-pressing-effect
+
+*/
